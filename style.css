@@ -3,6 +3,7 @@ body {
   margin: 0;
   min-height: 100vh;
   background-color: #FFFCBD;
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
 .khung {
   width: 300px;      
@@ -98,7 +99,6 @@ body {
   color: white;
   text-align: center;
   padding: 18px 20px;
-  border-radius: 0 0 24px 24px;
   box-shadow: 0 4px 15px rgba(252, 96, 118, 0.25);
   margin-bottom: 25px;
 }
@@ -130,4 +130,20 @@ hr {
   100% {
     transform: translateX(100vw);
   }
+}
+.b1 {
+  background: #ffffff;
+  color: #e67e22;
+  border: 2px solid #e67e22;
+  padding: 10px 24px;
+  border-radius: 999px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.b1:hover {
+  background: #e67e22;
+  color: #ffffff;
+  transform: scale(1.04);
 }
